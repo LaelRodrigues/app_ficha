@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "418739750880",
+    "project_id": "contrachequern",
+    "storage_bucket": "contrachequern.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418739750880:android:7046bb25fe8b38a5cbcd85",
+        "android_client_info": {
+          "package_name": "com.example.contracheque"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418739750880-q42uicklcmv8225g03hs9avurobjau8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPkORkEELXfAm6HLqScRVudfDVe3NtsRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418739750880-q42uicklcmv8225g03hs9avurobjau8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
