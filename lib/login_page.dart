@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'home_page.dart';
+import 'tela_inicial.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -48,7 +48,7 @@ class _LoginPageState extends State<LoginPage> {
           .signInWithEmailAndPassword(email: email.text, password: senha.text);
       if (userCredential != null) {
         Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (context) => HomePage()));
+            context, MaterialPageRoute(builder: (context) => TelaInicial()));
       }
     } on FirebaseAuthException catch (e) {
       if (e.code == 'user-not-found') {

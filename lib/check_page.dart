@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:contracheque/home_page.dart';
+import 'package:contracheque/tela_inicial.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -26,7 +26,7 @@ class _CheckPageState extends State<CheckPage> {
             context, MaterialPageRoute(builder: (context) => LoginPage()));
       } else {
         Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (context) => HomePage()));
+            context, MaterialPageRoute(builder: (context) => LoginPage()));;
       }
     });
   }
